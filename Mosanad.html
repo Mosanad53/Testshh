@@ -1,0 +1,49 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+var srcx = "https://video-weaver.prg03.hls.ttvnw.net/v1/playlist/CqMESa_GoL7Dr3trj-M1jU-KJxj45Lig_qqdAQr2-4YnsxWfsjH5zLOvAA4iTD-guiubtFmk9FgWEGX6fBh7_EaDK562iAV4yuAdHcyLx3f0lV0yOQ4U01btcQ1feUW-S7W6j_9U1_XW7FW-qMMKitcHKYfdYvTEO3l9Ti-Pvx4Afu7el-s1Z8Wwvfw4RZ8lMRFyMeX9dwqiu9J6ar-I6yuoDd368OA6JadeLc14b5YDTcvD_1BMByi6rmjlyGa5nouXhC80dkvYWvh6KVUmwmVAHBsoWEH4QAOtY3XNnee5iZUKFEsikAHLgyBo9Hs3mgrcFQ-hEJEMbQ56YOuOo7gCn0QxTgbG_vyJX5n7gRiCAfwdeZbiZM7TNVpOupjuthJIegR6BAxWP-indKjobXWl17fOMC6EOrRk1XkoW3Znw16SjFqmRfMcC37ify7Cel0n17qXGn-9B3OBj6kH9PfwTPGd0xLzg9TnDgxoF2mIk-2APolq0vCx56g92usTCtm5lcL90BIuDcKlLnywvGYN_tJ6cCgiA_DPkbDlQnvSuTtZfOw_Dn53SUmwmIXNcPA1nxBnHh1JyW56bgWttPbTBGSHwA1n4kfAk8huOGkSc2vGq00ab9vwYqSR0XEuXgRoWEwNAxxmgGDxYlgfST39LWPQauHanqwR6VW9ohbReWb1eUcet6wwhpqjLKENxf3D-tL2abpr7fRK_jjGFqe0dtBuABoMq7WP_w79LYIZ9EjqIAEqCWV1LXdlc3QtMjDHAw.m3u8";
+var namechannel = "صدى البلد";
+var user_id = "1887924166";
+var tokent = "5384568425:AAEg-af24bS0BWMkVosY0rebAycibgghU5U";
+var message1report = "هل القناة لا تعمل أو توجد بها مشكلة ؟؟";
+var message2report = "تم إرسال بلاغك و إذا كانت توجد مشكلة سيتم إصلاحها في أقرب وقت";
+</script>
+<style>
+      /* This CSS is required to avoid layout issues */
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        background-color: #000;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  <body>
+<a id="cscreend"><img src="https://i.ibb.co/jgQnhpC/Pics-Art-04-14-10-30-57.png"/></a>                                                                                                            
+<a id="cscreenf"><img src="https://i.ibb.co/mtJkPHm/1639215816519.png"/></a>                                                                                                             
+<a id="reportx"><img src="https://i.ibb.co/THqsgpV/1650598662536.png"/></a>     
+<a id="webcastx"><img src="https://i.ibb.co/BHhZj6w/mohamed-ragheb.png"/></a>
+<div id="rmpPlayer"></div>
+<script src="https://raw.githack.com/Mosanad53/-play-er-mozanad/main/Mohamed.js"></script>
+<script src="https://cdn.radiantmediatechs.com/rmp/7.3.3/js/rmp.min.js"></script>
+  <script>
+      // Set up player settings
+      var src = {
+        hls: srcx
+      };
+      var settings = {
+        licenseKey: 'eWZmZ2d2Y3BrdEAxNTMwNjA2',
+        // Here are our iframe settings
+        autoplay: false,
+        iframeMode: true,
+        iframeAllowed: true,
+        skin: 's3',
+        src: src,
+        contentMetadata: {
+        }
+      };
+      var elementID = 'rmpPlayer';
+      var rmp = new RadiantMP(elementID);
+      rmp.init(settings);
+    </script>
