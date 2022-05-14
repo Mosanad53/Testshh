@@ -1,0 +1,49 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+var srcx = "https://admdn1.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/playlist.m3u8";
+var namechannel = "إسم القناة";
+var user_id = "1887924166";
+var tokent = "5384568425:AAEg-af24bS0BWMkVosY0rebAycibgghU5U";
+var message1report = "هل القناة لا تعمل أو توجد بها مشكلة ؟؟";
+var message2report = "تم إرسال بلاغك و إذا كانت توجد مشكلة سيتم إصلاحها في أقرب وقت";
+</script>
+<style>
+      /* This CSS is required to avoid layout issues */
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        background-color: #000;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  <body>
+<a id="cscreend"><img src="https://i.ibb.co/jgQnhpC/Pics-Art-04-14-10-30-57.png"/></a>                                                                                                            
+<a id="cscreenf"><img src="https://i.ibb.co/mtJkPHm/1639215816519.png"/></a>                                                                                                             
+<a id="reportx"><img src="https://i.ibb.co/THqsgpV/1650598662536.png"/></a>     
+<a id="webcastx"><img src="https://i.ibb.co/BHhZj6w/mohamed-ragheb.png"/></a>
+<div id="rmpPlayer"></div>
+<script src="https://cdn.jsdelivr.net/gh/matchatco/player-matchatco/mohamedragheb@player3.js"></script>
+<script src="https://cdn.radiantmediatechs.com/rmp/7.3.3/js/rmp.min.js"></script>
+  <script>
+      // Set up player settings
+      var src = {
+        hls: srcx
+      };
+      var settings = {
+        licenseKey: 'eWZmZ2d2Y3BrdEAxNTMwNjA2',
+        // Here are our iframe settings
+        autoplay: false,
+        iframeMode: true,
+        iframeAllowed: true,
+        skin: 's3',
+        src: src,
+        contentMetadata: {
+        }
+      };
+      var elementID = 'rmpPlayer';
+      var rmp = new RadiantMP(elementID);
+      rmp.init(settings);
+    </script>
