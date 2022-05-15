@@ -1,3 +1,22 @@
+Skip to content
+Mosanad53
+/
+Testshh
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Testshh/sanad.css
+@Mosanad53
+Mosanad53 Add files via upload
+ 1 contributor
+418 lines (396 sloc)  10.1 KB
 
 @font-face {
 font-family: "Neo Sans Arabic";
@@ -343,7 +362,7 @@ z-index: 99999999999999999;
 content: "";
 height: 100%;
 width: 100px;
-background: url(https://i.imgur.com/m7uhOtL.png) no-repeat;
+background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYw5E24XK8EJH4v0YZtEJjl_B8KCiJglan5g&usqp=CAU) no-repeat;
 background-size: 65px auto, auto;
 left: 1%;
 }
@@ -400,19 +419,29 @@ left: 0;
   from {bottom: 0; opacity: 0;} 
   to {bottom: 30px; opacity: 1;}
 }
-
 @keyframes fadein {
   from {bottom: 0; opacity: 0;}
   to {bottom: 30px; opacity: 1;}
 }
-
 @-webkit-keyframes fadeout {
   from {bottom: 30px; opacity: 1;} 
   to {bottom: 0; opacity: 0;}
 }
-
 @keyframes fadeout {
   from {bottom: 30px; opacity: 1;}
   to {bottom: 0; opacity: 0;}
 }
  /**********************    snackbar *****************/
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
