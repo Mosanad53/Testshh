@@ -1,22 +1,3 @@
-Skip to content
-Mosanad53
-/
-Testshh
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Testshh/sanad.css
-@Mosanad53
-Mosanad53 Add files via upload
- 1 contributor
-418 lines (396 sloc)  10.1 KB
 
 @font-face {
 font-family: "Neo Sans Arabic";
@@ -338,7 +319,7 @@ border-radius: 0%;
 }
 
 .plyr--video:before {
-content: " telfazek.com موقع تلفازك النقال";
+content: " Telfazek.com تلفازك النقال";
 font-family: Neo Sans Arabic, Changa, Segoe UI, sans-serif;
 text-shadow: 4px 0px 4px #000;
 width: 100%;
@@ -419,29 +400,19 @@ left: 0;
   from {bottom: 0; opacity: 0;} 
   to {bottom: 30px; opacity: 1;}
 }
+
 @keyframes fadein {
   from {bottom: 0; opacity: 0;}
   to {bottom: 30px; opacity: 1;}
 }
+
 @-webkit-keyframes fadeout {
   from {bottom: 30px; opacity: 1;} 
   to {bottom: 0; opacity: 0;}
 }
+
 @keyframes fadeout {
   from {bottom: 30px; opacity: 1;}
   to {bottom: 0; opacity: 0;}
 }
  /**********************    snackbar *****************/
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
