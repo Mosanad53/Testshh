@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/openplayerjs@latest/dist/openplayer.min.css'>
+<style>
+video {
+  width: 100% !important;
+  height: 100% !important;
+}
+</style>
+</head>
+<body>
+<video class="op-player__media" autoplay="true" poster="https://i.ibb.co/S5DHBy1/elnenny.png" id="video" controls playsinline>
+<source src="https://admdn1.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/playlist.m3u8">
+</video>
+<script src='https://cdn.jsdelivr.net/npm/openplayerjs@latest/dist/openplayer.min.js'></script>
+<script src='https://buttons.github.io/buttons.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src='https://cdn.jsdelivr.net/gh/matchatco/player-matchatco/mxp.pro.openplayer.js'></script>
+</body>
+</html>
