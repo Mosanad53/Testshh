@@ -1,0 +1,154 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<style> 
+ 
+ 
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@800&display=swap'); 
+ 
+* { 
+  box-sizing: border-box; 
+} 
+ 
+.topleft { 
+    position: absolute; 
+    bottom: 37px; 
+    right: 2px; 
+    font-size: 15px; 
+    background: #000000a1; 
+    padding: 6px; 
+    color: #FFFFFF; 
+    BORDER-RADIUS: 10px 0 6px 0; 
+} 
+ 
+ 
+body { 
+  background-color: #151515; 
+  padding: 0px 10px 0px 10px; 
+  font-family: 'Almarai', sans-serif; 
+  text-align: center; 
+} 
+ 
+/* Center website */ 
+.main { 
+  max-width: 1280px; 
+  margin: auto; 
+} 
+ 
+h3 { 
+font-size: 16px; 
+    margin-block-start: 0.4em; 
+    margin-block-end: 0.4em; 
+    margin-inline-start: 0px; 
+    margin-inline-end: 0px;     
+} 
+ 
+h2 { 
+color: #d5ffc4; 
+font-size: 18px; 
+    margin-block-start: 0.4em; 
+    margin-block-end: 0.4em; 
+    margin-inline-start: 0px; 
+    margin-inline-end: 0px;     
+} 
+ 
+.row { 
+  margin: -7px -18px; 
+} 
+ 
+/* Add padding BETWEEN each column */ 
+.row, 
+.row > .column { 
+  padding: 4px; 
+} 
+ 
+/* Create four equal columns that floats next to each other */ 
+.column { 
+  float: right; 
+  width: 20%; 
+} 
+ 
+/* Clear floats after rows */  
+.row:after { 
+  content: ""; 
+  display: table; 
+  clear: both; 
+} 
+ 
+/* Content */ 
+.content { 
+  background-color: #4c4c4c; 
+  padding: 2px; 
+  border-radius: 8px; 
+    position: relative; 
+ 
+} 
+ 
+ 
+/* Responsive layout TV */ 
+@media screen and (max-width: 1920px) { 
+  .column { 
+    width: 50%; 
+  } 
+} 
+ 
+/* Responsive layout Mobile */ 
+@media screen and (max-width: 600px) { 
+  .column { 
+    width: 100%; 
+  } 
+} 
+ 
+</style> 
+</head> 
+<body> 
+ 
+<!-- MAIN (Center website) --> 
+<div class="main"> 
+ 
+<!-- Portfolio Gallery Grid --> 
+<div class="row"> 
+      <h2></h2> 
+ 
+          <div class="column"> 
+    <div class="content"><a href="go:pr1"> 
+    <img src="https://telegra.ph/file/9e87c2278b4e59e517247.jpg"  style="border-radius:6px;width:100%"></a> 
+    </div> 
+  </div> 
+ 
+          <div class="column"> 
+    <div class="content"><a href="go:pr2"> 
+    <img src="https://telegra.ph/file/5a53b1225581b9f88f38d.jpg"  style="border-radius:6px;width:100%"></a> 
+    </div> 
+  </div> 
+   
+            <div class="column"> 
+    <div class="content"><a href="go:pr3"> 
+    <img src="https://telegra.ph/file/27804884a8dd2a06ddaab.jpg"  style="border-radius:6px;width:100%"></a> 
+    </div> 
+  </div> 
+  
+  <div class="column"> 
+    <div class="content"><a href="go:pr3"> 
+    <img src="https://telegra.ph/file/5c0229027f7bf49f9148a.jpg"  style="border-radius:6px;width:100%"></a> 
+    </div> 
+  </div> 
+ 
+       <div class="column"> 
+    <div class="content"><a href="go:pr3"> 
+    <img src="https://telegra.ph/file/1a4d5309d47f8447f0463.jpg"  style="border-radius:6px;width:100%"></a> 
+    </div> 
+  </div> 
+ 
+ 
+ <div class="column"> 
+    <div class="content"><a href="go:pr3"> 
+    <img src="https://telegra.ph/file/fb64fe1196c34385eaaf9.jpg"  style="border-radius:6px;width:100%"></a> 
+    </div> 
+  </div> 
+ 
+ 
+   
+<!-- END GRID --> 
+</div>
